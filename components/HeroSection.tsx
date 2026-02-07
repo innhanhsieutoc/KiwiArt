@@ -2,10 +2,17 @@ import React from 'react';
 
 export const HeroSection: React.FC = () => {
   return (
-    <div
-      className="relative flex items-center justify-center h-screen bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: "url('https://picsum.photos/id/1074/1920/1080?blur=5')" }}
-    >
+    <div className="relative flex items-center justify-center h-screen overflow-hidden">
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/public/video/demovideo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 text-center text-white px-4 md:px-8 max-w-4xl animate-fade-in-up">
         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6 drop-shadow-lg animate-text-pop">

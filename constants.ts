@@ -15,15 +15,15 @@ export const MOCK_PAINTINGS: Painting[] = [
     description: 'A vibrant abstract representation of the deep ocean, crafted with Lapis Lazuli, Sodalite, and hints of Mother of Pearl to capture the play of light underwater. This piece evokes calm and mystery, perfect for a contemplative space.',
     price: 1250.00,
     originalPrice: 1500.00, // Added original price
-    imageUrl: 'https://picsum.photos/id/1043/1200/900',
-    thumbnailUrl: 'https://picsum.photos/id/1043/300/225',
+    imageUrl: '/public/images/backround2.png',
+    thumbnailUrl: '/public/images/backround2.png',
     materials: ['Lapis Lazuli', 'Sodalite', 'Mother of Pearl', 'Epoxy Resin'],
     dimensions: '24x36 inches',
-    videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', // Sample video
-    additionalImages: [ // Sample additional images
-      'https://picsum.photos/id/1043/800/600',
-      'https://picsum.photos/id/1043/800/500',
-      'https://picsum.photos/id/1043/700/600',
+    videoUrl: '/public/video/video demo.mp4',
+    additionalImages: [
+      '/public/images/backround2.png',
+      '/public/images/backround3.png',
+      '/public/images/backround4.png',
     ],
   },
   {
@@ -32,8 +32,8 @@ export const MOCK_PAINTINGS: Painting[] = [
     artist: 'David Lee',
     description: 'An enchanting depiction of an ancient forest, using rich Malachite, Peridot, and earthy Jasper. The textures bring the dense foliage and mossy ground to life, offering a serene escape into nature\'s embrace.',
     price: 980.00,
-    imageUrl: 'https://picsum.photos/id/1083/1200/900',
-    thumbnailUrl: 'https://picsum.photos/id/1083/300/225',
+    imageUrl: '/public/images/backround5.png',
+    thumbnailUrl: '/public/images/backround5.png',
     materials: ['Malachite', 'Peridot', 'Jasper', 'Wood Panel'],
     dimensions: '18x24 inches',
     additionalImages: [
@@ -48,11 +48,11 @@ export const MOCK_PAINTINGS: Painting[] = [
     description: 'Capturing the dramatic colors of a sunset over a distant horizon, with fiery Carnelian, warm Citrine, and deep Garnet. The gradation of colors provides a dynamic and uplifting presence, symbolizing hope and new beginnings.',
     price: 1500.00,
     originalPrice: 1750.00,
-    imageUrl: 'https://picsum.photos/id/1040/1200/900',
-    thumbnailUrl: 'https://picsum.photos/id/1040/300/225',
+    imageUrl: '/public/images/backround5.png',
+    thumbnailUrl: '/public/images/backround5.png',
     materials: ['Carnelian', 'Citrine', 'Garnet', 'Amethyst', 'Acrylic Board'],
     dimensions: '30x40 inches',
-    videoUrl: 'https://www.w3schools.com/tags/movie.mp4', // Another sample video
+    videoUrl: '/public/video/video demo.mp4', // Another sample video
   },
   {
     id: '4',
@@ -60,8 +60,8 @@ export const MOCK_PAINTINGS: Painting[] = [
     artist: 'Kenji Tanaka',
     description: 'A fantastical celestial flower blooming in a cosmic garden, made with iridescent Labradorite, shimmering Moonstone, and deep blue Tanzanite. This piece reflects cosmic wonder and spiritual awakening.',
     price: 1800.00,
-    imageUrl: 'https://picsum.photos/id/1060/1200/900',
-    thumbnailUrl: 'https://picsum.photos/id/1060/300/225',
+    imageUrl: '/public/images/backround5.png',
+    thumbnailUrl: '/public/images/backround5.png',
     materials: ['Labradorite', 'Moonstone', 'Tanzanite', 'Black Onyx', 'Canvas'],
     dimensions: '28x28 inches',
     additionalImages: [
@@ -76,8 +76,8 @@ export const MOCK_PAINTINGS: Painting[] = [
     artist: 'Lena Petrova',
     description: 'A vivid portrayal of desert flowers in full bloom after rain, using vibrant Turquoise, Coral, and earthy Sardonyx. It’s a testament to resilience and beauty in harsh environments, bringing warmth and color.',
     price: 1100.00,
-    imageUrl: 'https://picsum.photos/id/1036/1200/900',
-    thumbnailUrl: 'https://picsum.photos/id/1036/300/225',
+    imageUrl: '/public/images/backround5.png',
+    thumbnailUrl: '/public/images/backround5.png',
     materials: ['Turquoise', 'Coral', 'Sardonyx', 'Sandstone', 'Metal Frame'],
     dimensions: '20x30 inches',
   },
@@ -88,11 +88,11 @@ export const MOCK_PAINTINGS: Painting[] = [
     description: 'Capturing the ethereal dance of the aurora borealis over icy landscapes, with shimmering Selenite, translucent Quartz, and hints of iridescent Opal. A mesmerizing piece that brings a touch of magic.',
     price: 1650.00,
     originalPrice: 1900.00,
-    imageUrl: 'https://picsum.photos/id/1062/1200/900',
-    thumbnailUrl: 'https://picsum.photos/id/1062/300/225',
+    imageUrl: '/public/images/backround5.png',
+    thumbnailUrl: '/public/images/backround5.png',
     materials: ['Selenite', 'Quartz', 'Opal', 'Blue Lace Agate', 'Glass'],
     dimensions: '24x48 inches',
-    videoUrl: 'https://file-examples.com/storage/fe2c9d110863004654ae151/2017/04/file_example_MP4_480_1_5MG.mp4',
+    videoUrl: '/public/video/video demo.mp4',
   },
   {
     id: '7',
@@ -100,8 +100,8 @@ export const MOCK_PAINTINGS: Painting[] = [
     artist: 'Ramon Sanchez',
     description: 'An intense and powerful representation of a volcanic eruption, utilizing obsidian, fiery lava rock, and streaks of red jasper. This artwork embodies raw power and the earth\'s transformative energy.',
     price: 1300.00,
-    imageUrl: 'https://picsum.photos/id/1025/1200/900',
-    thumbnailUrl: 'https://picsum.photos/id/1025/300/225',
+    imageUrl: '/public/images/backround5.png',
+    thumbnailUrl: '/public/images/backround5.png',
     materials: ['Obsidian', 'Lava Rock', 'Red Jasper', 'Smoky Quartz', 'Concrete'],
     dimensions: '36x24 inches',
   },
@@ -112,8 +112,8 @@ export const MOCK_PAINTINGS: Painting[] = [
     description: 'A serene and minimalist depiction of a zen garden, crafted with smooth river stones, subtle green aventurine, and white quartz. It promotes peace, balance, and meditative calm.',
     price: 850.00,
     originalPrice: 1000.00,
-    imageUrl: 'https://picsum.photos/id/1000/1200/900',
-    thumbnailUrl: 'https://picsum.photos/id/1000/300/225',
+    imageUrl: '/public/images/backround5.png',
+    thumbnailUrl: '/public/images/backround5.png',
     materials: ['River Stones', 'Green Aventurine', 'White Quartz', 'Sand', 'Bamboo Frame'],
     dimensions: '16x20 inches',
     additionalImages: [
@@ -127,10 +127,10 @@ export const MOCK_PAINTINGS: Painting[] = [
     artist: 'Elara Vance',
     description: 'A dazzling journey into a hidden crystal cavern, featuring sparkling Amethyst, clear Quartz clusters, and vibrant Fluorite. The depth and luminescence create a sense of wonder and hidden treasures.',
     price: 1950.00,
-    imageUrl: 'https://picsum.photos/id/1039/1200/900',
-    thumbnailUrl: 'https://picsum.photos/id/1039/300/225',
+    imageUrl: '/public/images/backround5.png',
+    thumbnailUrl: '/public/images/backround5.png',
     materials: ['Amethyst', 'Quartz', 'Fluorite', 'Geode Slices', 'Light-Emitting Resin'],
     dimensions: '40x30 inches',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-bright-light-with-a-transparent-background-5026-large.mp4'
+    videoUrl: '/public/video/video demo.mp4'
   },
 ];
