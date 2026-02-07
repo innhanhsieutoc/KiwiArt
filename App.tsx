@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { Gallery } from './components/Gallery';
 import { Footer } from './components/Footer';
+import { AIChat } from './components/AIChat';
 import { PaintingDetailModal } from './components/PaintingDetailModal';
 import { Painting } from './types';
 import { SectionHeading } from './components/SectionHeading';
@@ -154,6 +155,7 @@ function App() {
 
       </main>
       <Footer />
+      <AIChat />
       {selectedPainting && (
         <PaintingDetailModal painting={selectedPainting} onClose={handleCloseModal} />
       )}

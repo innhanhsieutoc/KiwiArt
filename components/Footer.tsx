@@ -1,5 +1,5 @@
 import React from 'react';
-import { NAV_ITEMS } from '../constants';
+import { NAV_ITEMS, SOCIAL_MEDIA } from '../constants';
 
 export const Footer: React.FC = () => {
   return (
@@ -39,19 +39,29 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-semibold text-white mb-4">Connect With Us</h3>
             <div className="flex justify-center md:justify-start space-x-6 mb-6">
-              <a href="#" className="text-gray-300 hover:text-purple-300 transition-colors duration-200 transform hover:scale-125">
+              <a href={SOCIAL_MEDIA.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-300 transition-colors duration-200 transform hover:scale-125" title="Instagram">
                 <svg fill="currentColor" viewBox="0 0 24 24" className="h-6 w-6">
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.07 1.645.07 4.85s-.012 3.584-.07 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.251-.148-4.77-1.691-4.919-4.919-.058-1.265-.07-1.645-.07-4.85s.012-3.584.07-4.85c.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.359.201-6.528 2.373-6.728 6.728-.058 1.28-.072 1.687-.072 4.947s.014 3.667.072 4.947c.204 4.354 2.375 6.527 6.728 6.728 1.28.058 1.687.072 4.947.072s3.667-.014 4.947-.072c4.354-.204 6.527-2.375 6.728-6.728.058-1.28.072-1.687.072-4.947s-.014-3.667-.072-4.947c-.204-4.356-2.375-6.528-6.728-6.728-1.28-.058-1.687-.072-4.947-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.44-.645-1.44-1.44s.644-1.44 1.44-1.44 1.44.645 1.44 1.44-.644 1.44-1.44 1.44z"/>
                 </svg>
               </a>
-              <a href="#" className="text-gray-300 hover:text-purple-300 transition-colors duration-200 transform hover:scale-125">
+              <a href={SOCIAL_MEDIA.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-300 transition-colors duration-200 transform hover:scale-125" title="Facebook">
                 <svg fill="currentColor" viewBox="0 0 24 24" className="h-6 w-6">
                   <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.271 0-4.192 1.549-4.192 4.615v3.385z"/>
                 </svg>
               </a>
-              <a href="#" className="text-gray-300 hover:text-purple-300 transition-colors duration-200 transform hover:scale-125">
+              <a href={SOCIAL_MEDIA.tiktok} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-300 transition-colors duration-200 transform hover:scale-125" title="TikTok">
                 <svg fill="currentColor" viewBox="0 0 24 24" className="h-6 w-6">
-                  <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-.418.724-.659 1.58-.659 2.484 0 1.694.831 3.24 2.091 4.129-.766-.025-1.491-.234-2.118-.582v.06c0 3.224 2.557 5.895 5.923 6.5-.62.162-1.29.21-1.966.083.831 2.609 3.328 4.508 6.29 4.562-2.558 2-5.783 3.21-9.284 3.21- .604 0-1.19-.035-1.76-.104 3.233 2.112 7.161 3.35 11.33 3.35 13.627 0 21.09-11.162 21.09-20.834 0-.353-.012-.7-.02-.1.381-.324.733-.695 1.06-1.134z"/>
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-5.92-2.32 2.89 2.89 0 0 1 2.31 1.39V9.58a6.29 6.29 0 1 0 10.86 3.75v-3.33a8.01 8.01 0 0 0 3.77-1.01v-3.3a4.7 4.7 0 0 1-.61 0z"/>
+                </svg>
+              </a>
+              <a href={SOCIAL_MEDIA.youtube} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-300 transition-colors duration-200 transform hover:scale-125" title="YouTube">
+                <svg fill="currentColor" viewBox="0 0 24 24" className="h-6 w-6">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+              </a>
+              <a href={SOCIAL_MEDIA.viber} className="text-gray-300 hover:text-purple-300 transition-colors duration-200 transform hover:scale-125" title="Viber">
+                <svg fill="currentColor" viewBox="0 0 24 24" className="h-6 w-6">
+                  <path d="M12 0C5.372 0 0 4.477 0 10c0 2.547 1.091 4.898 2.914 6.67.071 2.889-1.497 5.75-1.82 6.831l3.636-1.918c1.153.592 2.467.937 3.81.937 6.628 0 12-4.477 12-10S18.628 0 12 0zm.5 14.5h-1v-4h1v4zm-3.5 0h1v-3h1v-1h-1v-.5c0-.276.224-.5.5-.5h.5v-1c-.821 0-1.5.679-1.5 1.5v.5h-.5v1h.5v3z"/>
                 </svg>
               </a>
             </div>

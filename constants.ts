@@ -7,6 +7,14 @@ export const NAV_ITEMS: NavItem[] = [
   { name: 'Contact', href: '#contact' },
 ];
 
+export const SOCIAL_MEDIA = {
+  instagram: 'https://instagram.com/kiwiart',
+  tiktok: 'https://tiktok.com/@kiwiart',
+  facebook: 'https://facebook.com/kiwiart',
+  viber: 'viber://chat?number=+84123456789', // Replace with your Viber number
+  youtube: 'https://youtube.com/@kiwiart',
+};
+
 export const MOCK_PAINTINGS: Painting[] = [
   {
     id: '1',
