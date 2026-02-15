@@ -10,7 +10,7 @@ export const HeroSection: React.FC = () => {
         muted
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="/public/video/demovideo.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/dlc5hg3hn/video/upload/v1771114123/demovideo_vrazhs.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute inset-0 bg-black opacity-50"></div>
